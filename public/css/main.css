@@ -1074,6 +1074,9 @@ video {
 .h-2\.5 {
   height: 0.625rem;
 }
+.h-16 {
+  height: 4rem;
+}
 .w-10 {
   width: 2.5rem;
 }
@@ -1097,6 +1100,12 @@ video {
 }
 .w-2\.5 {
   width: 0.625rem;
+}
+.w-16 {
+  width: 4rem;
+}
+.w-8 {
+  width: 2rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -1879,6 +1888,10 @@ video {
     width: fit-content;
   }
 
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -2124,6 +2137,10 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:gap-8 {
